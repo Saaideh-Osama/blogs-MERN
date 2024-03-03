@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+
+}
+.navbar{
+width: 100vw;
+height: 8vh;
+background-color:#114232;
+display: flex;
+flex-direction: row;
+row-gap: 3vh;
+}
+.navbar > a{
+display: flex;
+justify-content: center;
+align-items:center ;
+background-color: transparent;
+width: 8vw;
+height: 8vh;
+font-size:1.5rem ;
+color: rgb(201, 203, 184)   ;
+text-decoration: none;
+}
+#logo >img{
+    object-fit: cover;
+    width: 8vw;
+    height:8vh;
+    border: #114232 solid 1.5px;
+}
+#profile{
+background-color: transparent;
+height: 8vh;
+font-size:1.5rem ;
+color: rgb(201, 203, 184)   ;
+width: 20vw;
+margin-top: 2vh;
+margin-left: 50vw;
+}
+#createblogbtn{
+    width: 15vw;
+}
+

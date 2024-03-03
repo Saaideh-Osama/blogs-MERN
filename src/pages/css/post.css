@@ -1,0 +1,27 @@
+.entry{
+    background-color: darkseagreen;
+    width: 40vw;
+    
+    border-radius:10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:10px ;
+
+}
+#title{
+text-transform: uppercase;
+font-family: Georgia, serif;
+font-weight: bolder;
+font-size: 2rem;
+}
+#creationTime{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    float: right;
+}
+#summary{
+    font-size: smaller;
+}
